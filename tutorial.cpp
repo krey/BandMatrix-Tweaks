@@ -44,7 +44,7 @@ int main () {
     // if you wanna set the actual (1,1) of A
     // you need to adjust your indices
 
-    // let's change (0,1) back to 3 from 5
+    // let's change (0,1) back to 5 from 3
     item(A, 0, 1) = 3;
     // and change the actual (1,1) to 5
     item(A, 1, 1) = 5;
