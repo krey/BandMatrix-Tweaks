@@ -20,7 +20,7 @@ Current capabilities are:
 * Transposition via the `transpose` function: B^T is `transpose(B)`
 * Conversion from dense format via the `fromDenseMatrix` function: use either `fromDenseMatrix(A, supers, subs)` or `fromDenseMatrix(A)` for a dense matrix A.
 
-Please see `tutorial.cpp` a more complete introduction. 
+Please see [tutorial.cpp](tutorial.cpp) a more complete introduction. 
 
 
 

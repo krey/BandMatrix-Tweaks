@@ -26,6 +26,12 @@ int main () {
 	
 	// we can also directly inspect the dense storage format
 	cout << A.coeffs() << endl << endl;
+	// prints
+	//  0  0  4  4
+	//  0  3  3  3
+	//  1  1  2  2
+	// -1 -1 -1  0
+
 	// we have write access too:
 	A.coeffs()(1, 1) = 5;
 	cout << A.toDenseMatrix() << endl << endl;
