@@ -1,7 +1,7 @@
 #ifndef BAND_TWEAKS_H
 #define BAND_TWEAKS_H
 
-#include </usr/include/eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 #include <tuple>
 
 namespace band_tweaks {
