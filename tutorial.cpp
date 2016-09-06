@@ -1,8 +1,6 @@
 #include <iostream>
 #include "band_tweaks.h"
 
-#define EIGEN_INITIALIZE_MATRICES_BY_NAN
-
 int main () {
     using namespace std;
     using namespace band_tweaks;
