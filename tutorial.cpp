@@ -31,6 +31,9 @@ int main () {
     //  0  3  3  3
     //  1  1  2  2
     // -1 -1 -1  0
+    //
+    // Note: on some systems, instead of zeros, you might have uninitialised values
+    // in the placeholder entries of the coefficient matrix.
 
     // we have write access too:
     A.coeffs()(1, 1) = 5;
